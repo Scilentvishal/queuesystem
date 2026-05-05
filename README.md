@@ -19,9 +19,12 @@ Docker
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
 git clone https://github.com/Scilentvishal/queuesystem.git
+
 cd queuesystem
 2️⃣ Install Dependencies
+
 npm install
+
 3️⃣ Start Redis using Docker
 
 Make sure Docker is installed and running.
@@ -31,7 +34,9 @@ docker-compose -f redis-spawn.yml up -d
 This will start:
 
 Redis server → localhost:6379
+
 Redis Insight UI → http://localhost:5540
+
 4️⃣ Important ⚠️ (Redis Connection)
 
 If you're running Node.js locally:
@@ -47,10 +52,13 @@ Example:
 
 host: 'redis',
 port: 6379
+
 5️⃣ Run the Server
 node file.js
+
 6️⃣ Run the Worker
 node user.js
+
 📡 API Usage
 Add Job to Queue
 
