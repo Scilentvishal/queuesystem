@@ -61,6 +61,8 @@ POST /queue
   "userId": "123",
   "priority": 1
 }
+
+
 🧠 How It Works
 API receives request
 Job is added to Redis queue
